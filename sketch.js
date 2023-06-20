@@ -21,8 +21,8 @@ function setup(){
 function draw() {
   background("blue");
   
-  if (mar.x <-100){
-    sea.x = 500
+  if (mar.x <0){
+    sea.x = sea.widht/2
     
   }
     drawSprites();
